@@ -1,0 +1,90 @@
+.footer-container {
+    position: absolute;
+    width: 100%;
+    /* bottom: 0; */
+}
+
+.footer-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1A6334;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #164C28;
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    padding: 60px 80px 30px 80px;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 0 15px 0;
+    cursor: pointer;
+}
+
+.copyright-container {
+    width: 300px;
+}
+
+.copyright-container img {
+    width: 70%;
+    margin-bottom: 25px;
+}
+
+.extra-large {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    cursor: default;
+}
+
+.socials {
+    display: flex;
+    margin-top: 50px;
+    gap: 15px;
+    align-items: center;
+}
+
+.socials img {
+    width: 10%;
+    cursor: pointer;
+}
+
+.email-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.email-field img {
+    position: absolute;
+    right: 11px;
+    cursor: pointer;
+}
+
+.email-field input {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 9px;
+    width: 230px;
+    padding: 14px 15px;
+    color: #D9DBE1;
+}
+
+.email-field input::placeholder {
+    color: #D9DBE1;
+    font-size: 14px;
+}
+
+.email-field input:focus {
+    outline: none;
+  }
+

@@ -1,0 +1,30 @@
+.hero-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    gap: 20px;
+}
+
+.flag-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.flag-container img {
+    width: 100%;
+}
+
+.download-app-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.download-app-container img {
+    width: 90%;
+}
