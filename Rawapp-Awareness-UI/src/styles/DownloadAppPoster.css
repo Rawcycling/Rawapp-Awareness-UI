@@ -56,3 +56,120 @@
     z-index: -1;
     left: -55px;
 }
+
+/* 2xl */
+@media (min-width: 2560px) {
+    .poster-container {
+        margin-top: 200px;
+        padding: 0% 0% 0% 20%;
+        display: flex;
+    }
+
+    .poster-container__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .poster-container__img img {
+        width: 70%;
+        left: 55px;
+        top: 65px;
+    }
+
+    .poster-container__text {
+        width: 90%;
+    }
+
+    .poster-container__text h1 {
+        font-size: 170px;
+        font-weight: 800;
+        margin-bottom: 80px;
+        margin-top: 50px;
+    }
+    .poster-container__text p {
+        font-size: 38px;
+        font-weight: 400;
+        color: #717171;
+        max-width: 1000px;
+        line-height: 36px;
+        word-spacing: 0px;
+        text-align: justify;
+        margin-bottom: 120px;
+    }
+
+    .poster-container__img img {
+        left: 200px;
+        top: 85px;
+        width: 80%;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {}
+
+/* lg */
+@media (max-width: 1024px) {
+    .poster-container {
+        margin-top: 150px;
+    }
+
+    .poster-container__text h1 {
+        font-size: 80px;
+        margin-bottom: 0;
+        margin-top: 50px;
+    }
+
+    .poster-container__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .poster-container__img img {
+        width: 100%;
+        left: 55px;
+        top: 65px;
+    }
+
+    .poster-container__text p {
+        margin-bottom: 40px;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .poster-container {
+        margin-top: 100px;
+    }
+
+    .poster-container__text {
+        width: 100%;
+        margin-left: -30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .poster-container__text h1 {
+        font-size: 60px;
+        margin-bottom: 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .poster-container__text p {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .poster-container__img {
+        display: none;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {}
+
+/* xs */
+@media (max-width: 475px) {}
