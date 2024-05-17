@@ -10,6 +10,7 @@ import send_icon from '../assets/send_icon.png'
 const Footer = () => {
   return (
     <div className='footer-container'>
+        <div className='footer-container__nested'>
         <div className='footer-header'><h1>Waste to Wealth</h1></div>
 
         <footer>
@@ -48,6 +49,7 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
+        </div>
     </div>
   )
 }

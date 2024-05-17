@@ -1,4 +1,5 @@
 // import React from 'react'
+import { Link } from "react-router-dom";
 import '../styles/Navbar.css'
 import rawcycling_logo from '../assets/rawcycling_logo.png'
 
@@ -7,7 +8,7 @@ const Navbar = () => {
     <nav>
         <div className='navbar-container'>
             <div className='nav-logo'>
-                <img src={rawcycling_logo} alt="RAWCYCLING" />
+            <Link to={`/`}><img src={rawcycling_logo} alt="RAWCYCLING" /></Link>
             </div>
 
             <div className='nav-links'>
@@ -20,7 +21,7 @@ const Navbar = () => {
             </div>
             
             <div className='nav-btn'>
-                <button>Get App</button>
+                <Link to={`/waitlist`}><button>Get App</button></Link>
             </div>
         </div>
     </nav>

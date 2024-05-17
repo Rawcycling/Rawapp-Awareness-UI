@@ -1,11 +1,14 @@
 import './App.css'
-import AwarenessPage from './pages/AwarenessPage'
+import ScrollToTop from './components/ScrollToTop'
+import { Outlet } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
-      <AwarenessPage/>
+      <ScrollToTop>
+      <Outlet />
+      </ScrollToTop>
     </>
   )
 }
