@@ -15,7 +15,9 @@ const Footer = () => {
 
         <footer>
             <div className='copyright-container'>
-                <img src={rawcycling_logo_v2} alt="" />
+                <div className='copyright-container__logo'>
+                <img src={rawcycling_logo_v2} alt="" className='copyright-container__footer-img' />
+                </div>
                 <p>Copyright © 2024 Rawcycling</p>
                 <p>All rights reserved</p>
                 <div className='socials'>

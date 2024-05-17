@@ -78,7 +78,7 @@
     }
 
     .faq-contents__container {
-        padding-left: 10%;
+        padding-left: 12%;
     }
 
     .faq-question__container {
@@ -108,7 +108,11 @@
 }
 
 /* xl */
-@media (max-width: 1280px) {}
+@media (max-width: 1440px) {
+    .faq-container__header {
+        padding-top: 6%;
+    }
+}
 
 /* lg */
 @media (max-width: 1024px) {

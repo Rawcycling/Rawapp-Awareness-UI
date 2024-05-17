@@ -92,7 +92,7 @@
   .text-form-field input::placeholder {
     font-size: 12px;
     font-weight: 300;
-    opacity: 0.7;
+    opacity: 0.5;
     color: #828282;
   }
 
@@ -104,7 +104,7 @@
 
 textarea::placeholder {
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 300;
     opacity: 0.5;
     font-family: "Inter", sans-serif;
     padding: 30px 15px 30px 0px;
@@ -113,6 +113,7 @@ textarea::placeholder {
   .form-field textarea {
     padding: 10px 15px;
     border: 1px solid #E0E0E0;
+    border-radius: 1px;
     resize: none;
     overflow: auto;
     height: 80px;
@@ -144,3 +145,120 @@ textarea::placeholder {
     cursor: pointer;
     font-family: "Inter", sans-serif;
   }
+
+
+  /* 2xl */
+@media (min-width: 2560px) {
+    .contact-container {
+        padding: 5% 6%;
+        width: 100%;
+        gap: 190px;
+    }
+
+
+    .form-container {
+        min-width: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .form-container__sub-header {
+        font-size: 25px;
+    }
+    
+    .form-container__header {
+        font-size: 80px;
+    }
+
+    .phone-img__container, .mail-img__container {
+        width: 40px;
+    }
+
+    .phone-img__container img, .mail-img__container img{
+        width: 100%;
+    }
+    
+    .contact-details__actual p{
+        font-size: 26px;
+    }
+
+    .contact-details {
+        gap: 40px;
+    }
+
+    .map-container {
+        width: 30%;
+    }
+    
+    .phone-number-container, .mail-container {
+        gap: 20px;
+    }
+
+    .text-form-field input {
+        width: 190%;
+        padding: 15px 30px;
+        font-size: 15px;
+      }
+
+      .text-form-field input::placeholder {
+        font-size: 15px;
+      }
+
+      textarea::placeholder {
+        font-size: 15px;
+        padding: 60px 15px 30px 15px;
+      }
+    
+      .form-field textarea {
+        padding: 10px 15px;
+        height: 150px;
+        width: 197%;
+        font-size: 15px;
+      }
+
+      .form-btn button[type="submit"] {
+        width: 204.4%;
+        padding: 15px 40px;
+        font-size: 15px;
+      }
+}
+
+/* xl */
+@media (max-width: 1280px) {}
+
+/* lg */
+@media (max-width: 1024px) {
+    .map-container {
+        width: 42%;
+    }
+
+    .contact-container {
+        gap: 50px;
+        /* width: 100%; */
+        padding: 50px 10px 50px 0px;
+    }
+    
+}
+
+/* md */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 70px 130px 30px 130px;
+    }
+
+    .map-container {
+        display: none;
+    }
+
+    .form-container {
+        align-items: center;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {}
+
+/* xs */
+@media (max-width: 475px) {}

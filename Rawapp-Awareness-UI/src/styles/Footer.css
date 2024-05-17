@@ -88,3 +88,109 @@ footer p {
     outline: none;
   }
 
+
+  /* 2xl */
+@media (min-width: 2560px) {
+    .footer-container {
+        position: absolute;
+        width: 112%;
+        /* bottom: 0; */
+    }
+
+    footer p {
+        font-size: 20px;
+        font-weight: 300;
+        margin: 0 0 15px 0;
+    }
+
+    .extra-large {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .email-field input {
+        width: 300px;
+        padding: 15px 15px;
+    }
+    
+    .email-field input::placeholder {
+        font-size: 15px;
+    }
+
+    .copyright-container__logo img {
+        width: 90%;
+    }
+}
+
+/* xl */
+@media (min-width: 1440px) {
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    footer {
+        gap: 50px;
+    }
+
+    .email-field img {
+        right: 17px;
+        width: 8%;
+    }
+
+    .support-container {
+        width: 150px;
+    }
+
+    .socials img {
+        width: 20%;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    footer {
+        justify-content: space-between;
+        padding: 60px 40px 30px 40px;
+        gap: 10px;
+    }
+
+    footer p {
+        font-size: 12px;
+        font-weight: 300;
+        margin: 0 0 15px 0;
+    }
+
+    .extra-large {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .copyright-container {
+        width: 200px;
+    }
+
+    .socials {
+        margin-top: 40px;
+    }
+
+    .email-field img {
+        right: 17px;
+        width: 6%;
+    }
+    
+    .email-field input {
+        width: 200px;
+        padding: 10px 14px;
+    }
+    
+    .email-field input::placeholder {
+        font-size: 12px;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {}
+
+/* xs */
+@media (max-width: 475px) {}
+
