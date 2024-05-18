@@ -25,12 +25,12 @@ const Faq = () => {
 
             <div className='faq-contents'>
 
-                <div className='faq-question'>
+                <div className='faq-question' onClick={() => toggleAnswer(0)}>
                     <div className='faq-question__container'>
                     <p className='faq-question__number'>01</p>
                     <p className='actual-faq-question'>How can I start recycling with RawApp?</p>
                     </div>
-                    <div className='activation-btn' onClick={() => toggleAnswer(0)}>
+                    <div className='activation-btn'>
                         <img src={answersVisibility[0] ? close_btn : open_btn} alt="" />
                     </div>
                 </div>
@@ -44,12 +44,12 @@ const Faq = () => {
 
             <div className='faq-contents'>
 
-                <div className='faq-question'>
+                <div className='faq-question' onClick={() => toggleAnswer(1)}>
                 <div className='faq-question__container'>
                     <p className='faq-question__number'>02</p>
                     <p className='actual-faq-question'> What can I do with my RawCoins?</p>
                     </div>
-                    <div className='activation-btn' onClick={() => toggleAnswer(1)}>
+                    <div className='activation-btn' >
                         <img src={answersVisibility[1] ? close_btn : open_btn} alt="" />
                     </div>
                 </div>
@@ -63,12 +63,12 @@ const Faq = () => {
 
             <div className='faq-contents'>
 
-                <div className='faq-question'>
+                <div className='faq-question' onClick={() => toggleAnswer(2)}>
                 <div className='faq-question__container'>
                     <p className='faq-question__number'>03</p>
                     <p className='actual-faq-question'> What can I do with my RawCoins?</p>
                     </div>
-                    <div className='activation-btn' onClick={() => toggleAnswer(2)}>
+                    <div className='activation-btn'>
                         <img src={answersVisibility[2] ? close_btn : open_btn} alt="" />
                     </div>
                 </div>
@@ -82,12 +82,12 @@ const Faq = () => {
 
             <div className='faq-contents'>
 
-                <div className='faq-question'>
+                <div className='faq-question'  onClick={() => toggleAnswer(3)}>
                 <div className='faq-question__container'>
                     <p className='faq-question__number'>04</p>
                     <p className='actual-faq-question'> What can I do with my RawCoins?</p>
                     </div>
-                    <div className='activation-btn' onClick={() => toggleAnswer(3)}>
+                    <div className='activation-btn'>
                         <img src={answersVisibility[3] ? close_btn : open_btn} alt="" />
                     </div>
                 </div>

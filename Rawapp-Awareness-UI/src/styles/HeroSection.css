@@ -39,19 +39,24 @@
         width: 70%;
     }
 
-    .download-app-container {
+    /* .download-app-container {
         justify-content: flex-end;
         margin-right: -150px;
         width: 60%;
     }
-    
+     */
     .download-app-container img {
         width: 100%;
     }
 }
 
 /* xl */
-@media (max-width: 1280px) {}
+@media (min-width: 1440px) {
+    .download-app-container img {
+        width: 100%;
+        margin-left: 2%;
+    }
+}
 
 /* lg */
 @media (max-width: 1024px) {

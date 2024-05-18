@@ -124,6 +124,9 @@ footer p {
 
 /* xl */
 @media (min-width: 1440px) {
+    .footer-container {
+        width: 101.5%;
+    }
 }
 
 /* lg */
@@ -185,6 +188,10 @@ footer p {
     
     .email-field input::placeholder {
         font-size: 12px;
+    }
+
+    .footer-header {
+        font-size: 26px;
     }
 }
 

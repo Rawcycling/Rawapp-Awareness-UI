@@ -30,6 +30,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 30px 40px 30px 40px;
+    cursor: pointer;
 }
 .faq-question__number {
     color: rgba(60, 60, 67, 0.5);
@@ -74,11 +75,11 @@
 /* 2xl */
 @media (min-width: 2560px) {
     .faq-container__header {
-        padding-left: 6%;
+        padding-left: 1%;
     }
 
     .faq-contents__container {
-        padding-left: 12%;
+        padding-left: 0%;
     }
 
     .faq-question__container {
@@ -108,9 +109,13 @@
 }
 
 /* xl */
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
     .faq-container__header {
         padding-top: 6%;
+    }
+
+    .faq-container {
+        padding-left: 2%;
     }
 }
 

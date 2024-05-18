@@ -78,9 +78,11 @@
 
 /* 2xl */
 @media (min-width: 2560px) {
-
-    .testimonial-container__header {
-        padding-left: 6%;
+    
+    .another-squiggle_2 {
+        width: 70%;
+        position: relative;
+        right: -150px;
     }
 
     .testimonial-container__header h1 {
@@ -91,7 +93,7 @@
     }
 
     .testimonial-container__main {
-        padding-left: 6%;
+        padding-left: 3%;
         gap: 100px;
     }
 
@@ -112,13 +114,28 @@
     }
 
     .testimonial-row {
-        width: 100%;
+        /* width: 100%; */
         gap: 100px;
     }
 }
 
 /* xl */
-@media (max-width: 1280px) {}
+@media (min-width: 1440px) {
+    .testimonial-container__header {
+        padding-left: 1%;
+    }
+
+    .testimonial-container__main {
+        padding-left: 1%;
+    }
+
+    .another-squiggle_2 {
+        width: 70%;
+        position: relative;
+        right: -101px;
+        transform: rotate(180deg);
+    }
+}
 
 /* lg */
 @media (max-width: 1024px) {

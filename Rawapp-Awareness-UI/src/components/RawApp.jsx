@@ -12,7 +12,7 @@ const RawApp = () => {
   return (
     <div className='rawapp-container'>
         <div className='squiggles'>
-            <div><img src={squiggle_1} alt="" className='squiggle_1'/></div>
+            <div className='squiggle_1-container'><img src={squiggle_1} alt="" className='squiggle_1'/></div>
             <div className='squiggle_2-container'><img src={squiggle_2} alt="" className='squiggle_2'/></div>
             <div className='squiggle_3-container'><img src={squiggle_3} alt="" className='squiggle_3'/></div>
             <div><img src={squiggle_4} alt="" className='squiggle_4'/></div>
