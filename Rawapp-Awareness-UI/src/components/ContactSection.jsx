@@ -23,7 +23,7 @@ const ContactSection = () => {
                 </div>
 
                 <div className='mail-container'>
-                    <div className='mail-img__container'><img src={mail_icon} alt="rawcycling@help.com" /></div>
+                    <div className='mail-img__container'><img src={mail_icon} alt="rawcyclinginfo@gmail.com" /></div>
                     <div className='contact-details__actual'>
                         <p>EMAIL</p>
                         <p className='colored-text'>rawcycling@help.com</p>

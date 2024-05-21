@@ -262,11 +262,28 @@
         text-align: center;
     }
 
-    .feature-img {
-        display: none;
+    .feature-one, .feature-two, .feature-three {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 0px 0px;
+    }
+
+    .feature-two {
+        flex-direction: column-reverse; 
+    }
+
+    .feature-one .feature-text, .feature-three .feature-text {
+        padding-right: 0px;
     }
     
-    
+    .feature-two .feature-text {
+        padding-left: 0px;
+    }
+
+    .feature-img {
+        margin-top: 50px;
+    }
     
     .squiggle_3-container {
         margin-top: 80px;

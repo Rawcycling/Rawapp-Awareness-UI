@@ -21,9 +21,11 @@ const Footer = () => {
                 <p>Copyright © 2024 Rawcycling</p>
                 <p>All rights reserved</p>
                 <div className='socials'>
-                    <img src={insta_icon} alt="instagram" />
-                    <img src={twitter_icon} alt="twitter" />
-                    <img src={youtube_icon} alt="youtube" />
+                    <div><a href="https://www.instagram.com/_rawcycling?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target='_blank'><img src={insta_icon} alt="instagram" /></a></div>
+                    <div><a href=""><img src={twitter_icon} alt="twitter" /></a></div>
+                    <div><a href=""><img src={youtube_icon} alt="youtube" /></a></div>
+                    {/* <img src={twitter_icon} alt="twitter" /> */}
+                    {/* <img src={youtube_icon} alt="youtube" /> */}
                 </div>
             </div>
 

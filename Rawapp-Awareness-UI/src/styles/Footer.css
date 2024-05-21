@@ -47,13 +47,18 @@ footer p {
 
 .socials {
     display: flex;
-    margin-top: 50px;
+    margin-top: 40px;
     gap: 15px;
     align-items: center;
 }
 
+.socials div {
+    width: 35px;
+    height: 35px;
+}
+
 .socials img {
-    width: 10%;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -120,6 +125,13 @@ footer p {
     .copyright-container__logo img {
         width: 90%;
     }
+    .socials {
+        display: flex;
+        margin-top: 40px;
+        gap: 25px;
+        align-items: center;
+    }
+
 }
 
 /* xl */
@@ -144,8 +156,21 @@ footer p {
         width: 150px;
     }
 
+    .socials {
+        display: flex;
+        margin-top: 35px;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .socials div {
+        width: 34px;
+        height: 34px;
+    }
+    
     .socials img {
-        width: 20%;
+        width: 100%;
+        cursor: pointer;
     }
 }
 
@@ -173,7 +198,20 @@ footer p {
     }
 
     .socials {
-        margin-top: 40px;
+        display: flex;
+        margin-top: 30px;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .socials div {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .socials img {
+        width: 100%;
+        cursor: pointer;
     }
 
     .email-field img {
