@@ -1,137 +1,151 @@
 nav {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 2;
-    background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  background-color: #fff;
 }
 
 .navbar-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 15px 110px;
-    box-shadow: 0 5px 10px rgba(171, 190, 209, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 110px;
+  box-shadow: 0 5px 10px rgba(171, 190, 209, 0.4);
 }
 
 .nav-logo {
-    display: flex;
-    padding: 0;
-    width: 210px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  padding: 0;
+  width: 210px;
+  align-items: center;
+  justify-content: center;
 }
 
-.nav-logo img{
-    width: 100%;
-    cursor: pointer;
+.nav-logo img {
+  width: 100%;
+  cursor: pointer;
 }
 
-.nav-links ul{
-    display: flex;
-    padding: 0;
-    list-style: none;
-    gap: 45px;
-    font-weight: 550;
-    font-size: 16px;
-    color: #4D4D4D;
+.nav-links ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  gap: 45px;
+  font-weight: 550;
+  font-size: 16px;
+  color: #4d4d4d;
 }
 
 .nav-links li {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .nav-btn button {
-    font-family: "Inter", sans-serif;
-    background-color: #164C28;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 15px;
-    padding: 14px 55px;
-    cursor: pointer;
+  font-family: "Inter", sans-serif;
+  background-color: #164c28;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  padding: 14px 55px;
+  cursor: pointer;
 }
-
 
 /* 2xl */
 @media (min-width: 2560px) {
-    .nav-logo {
-        width: 350px;
-    }
-    
-    .nav-logo img{
-        width: 110%;
-    }
+  .nav-logo {
+    width: 350px;
+  }
 
-    .nav-links ul{
-        gap: 50px;
-        font-weight: 600;
-        font-size: 28px;
-    }
+  .nav-logo img {
+    width: 110%;
+  }
 
-    .nav-btn button {
-        font-size: 26px;
-        padding: 18px 65px;
-    }
+  .nav-links ul {
+    gap: 50px;
+    font-weight: 600;
+    font-size: 28px;
+  }
+
+  .nav-btn button {
+    font-size: 26px;
+    padding: 18px 65px;
+  }
 }
 
 /* xl */
-@media (max-width: 1280px) {}
+@media (max-width: 1280px) {
+}
 
 /* lg */
 @media (max-width: 1024px) {
-    .navbar-container {
-        padding: 15px 60px;
-    }
+  .navbar-container {
+    padding: 15px 60px;
+  }
 
-    .nav-logo img{
-        width: 80%;
-    }
+  .nav-logo img {
+    width: 80%;
+  }
 
-    .nav-links ul{
-        gap: 45px;
-        font-size: 14px;
-    }
+  .nav-links ul {
+    gap: 45px;
+    font-size: 14px;
+  }
 
-    .nav-btn button {
-        font-size: 14px;
-        padding: 12px 30px;
-        margin-left: 45px;
-    }
+  .nav-btn button {
+    font-size: 14px;
+    padding: 12px 30px;
+    margin-left: 45px;
+  }
 }
 
 /* md */
 @media (max-width: 768px) {
-    .navbar-container {
-        padding: 15px 60px;
-    }
+  .navbar-container {
+    padding: 15px 60px;
+  }
 
-    .nav-logo {
-        width: 140px;
-    }
+  .nav-logo {
+    width: 140px;
+  }
 
-    .nav-logo img{
-        width: 100%;
-    }
+  .nav-logo img {
+    width: 100%;
+  }
 
-    .nav-links ul{
-        gap: 30px;
-        font-size: 13px;
-    }
+  .nav-links ul {
+    gap: 30px;
+    font-size: 13px;
+  }
 
-    .nav-btn button {
-        font-size: 10px;
-        padding: 12px 25px;
-        width: 110px;
-        margin-left: 0px;
-    }
+  .nav-btn button {
+    font-size: 10px;
+    padding: 12px 25px;
+    width: 110px;
+    margin-left: 0px;
+  }
 }
 
 /* sm */
-@media (max-width: 640px) {}
+@media (max-width: 640px) {
+  .navbar-container {
+    padding: 15px 20px;
+  }
+
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 20px;
+    box-shadow: 0 5px 10px rgba(171, 190, 209, 0.4);
+  }
+}
 
 /* xs */
-@media (max-width: 475px) {}
+@media (max-width: 475px) {
+}
