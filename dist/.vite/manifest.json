@@ -1,0 +1,103 @@
+{
+  "src/assets/app_stores.png": {
+    "file": "assets/app_stores-EoZRBzLB.png",
+    "src": "src/assets/app_stores.png"
+  },
+  "src/assets/client_logo.png": {
+    "file": "assets/client_logo-B3j3E3cb.png",
+    "src": "src/assets/client_logo.png"
+  },
+  "src/assets/hero_flag.png": {
+    "file": "assets/hero_flag-BVPBMUTb.png",
+    "src": "src/assets/hero_flag.png"
+  },
+  "src/assets/iphone_img.png": {
+    "file": "assets/iphone_img-B_JZorVq.png",
+    "src": "src/assets/iphone_img.png"
+  },
+  "src/assets/map_img.png": {
+    "file": "assets/map_img-fHxW38-G.png",
+    "src": "src/assets/map_img.png"
+  },
+  "src/assets/rawcycling_logo.png": {
+    "file": "assets/rawcycling_logo-0iq9T8TT.png",
+    "src": "src/assets/rawcycling_logo.png"
+  },
+  "src/assets/rawcycling_logo_v2.png": {
+    "file": "assets/rawcycling_logo_v2-8t9ZA_2k.png",
+    "src": "src/assets/rawcycling_logo_v2.png"
+  },
+  "src/assets/screen_1.png": {
+    "file": "assets/screen_1-BsP0aQqM.png",
+    "src": "src/assets/screen_1.png"
+  },
+  "src/assets/screen_2.png": {
+    "file": "assets/screen_2-piFpw4QO.png",
+    "src": "src/assets/screen_2.png"
+  },
+  "src/assets/screen_3.png": {
+    "file": "assets/screen_3-CEamd_-l.png",
+    "src": "src/assets/screen_3.png"
+  },
+  "src/assets/squiggle_1.png": {
+    "file": "assets/squiggle_1-BXXW73kI.png",
+    "src": "src/assets/squiggle_1.png"
+  },
+  "src/assets/squiggle_2.png": {
+    "file": "assets/squiggle_2-BVpH3qLh.png",
+    "src": "src/assets/squiggle_2.png"
+  },
+  "src/assets/squiggle_3.png": {
+    "file": "assets/squiggle_3-BXDFR8Ac.png",
+    "src": "src/assets/squiggle_3.png"
+  },
+  "src/assets/squiggle_4.png": {
+    "file": "assets/squiggle_4-0Pq1PV1D.png",
+    "src": "src/assets/squiggle_4.png"
+  },
+  "src/assets/store_btn_img.png": {
+    "file": "assets/store_btn_img-CTZyRh6Y.png",
+    "src": "src/assets/store_btn_img.png"
+  },
+  "src/assets/success_icon.png": {
+    "file": "assets/success_icon-DrgDZ0vx.png",
+    "src": "src/assets/success_icon.png"
+  },
+  "src/assets/user_person.png": {
+    "file": "assets/user_person-174YE6eC.png",
+    "src": "src/assets/user_person.png"
+  },
+  "src/assets/waitlist_hero.png": {
+    "file": "assets/waitlist_hero-BALpdIxP.png",
+    "src": "src/assets/waitlist_hero.png"
+  },
+  "src/main.jsx": {
+    "file": "assets/main-iUxdiqzf.js",
+    "name": "main",
+    "src": "src/main.jsx",
+    "isEntry": true,
+    "css": [
+      "assets/main-7HHrSIlb.css"
+    ],
+    "assets": [
+      "assets/rawcycling_logo-0iq9T8TT.png",
+      "assets/hero_flag-BVPBMUTb.png",
+      "assets/app_stores-EoZRBzLB.png",
+      "assets/squiggle_1-BXXW73kI.png",
+      "assets/squiggle_2-BVpH3qLh.png",
+      "assets/squiggle_3-BXDFR8Ac.png",
+      "assets/squiggle_4-0Pq1PV1D.png",
+      "assets/screen_1-BsP0aQqM.png",
+      "assets/screen_2-piFpw4QO.png",
+      "assets/screen_3-CEamd_-l.png",
+      "assets/user_person-174YE6eC.png",
+      "assets/store_btn_img-CTZyRh6Y.png",
+      "assets/iphone_img-B_JZorVq.png",
+      "assets/client_logo-B3j3E3cb.png",
+      "assets/map_img-fHxW38-G.png",
+      "assets/rawcycling_logo_v2-8t9ZA_2k.png",
+      "assets/waitlist_hero-BALpdIxP.png",
+      "assets/success_icon-DrgDZ0vx.png"
+    ]
+  }
+}
