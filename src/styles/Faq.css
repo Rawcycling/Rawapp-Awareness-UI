@@ -12,6 +12,11 @@
     color: #4D4D4D;
     margin: 180px 0 0 0;
 }
+
+.faq-contents__container {
+    width: 99%;
+}
+
 .faq-container__header p {
     font-size: 23px;
     font-weight: 400;
